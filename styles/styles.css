@@ -3,7 +3,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
-    color: #ffffff;
+
     margin: 0;
     padding: 0;
 }
@@ -22,6 +22,9 @@ h1 {
     color: #140e02;
 }
 
+.bg-dark-custom{
+    background-color: #140e02  !important;
+}
 #role {
     font-size: 1.5rem;
     margin-top: 1rem;
@@ -36,15 +39,26 @@ h1 {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #ffffff;
+    
     transition: color 0.3s;
+    color: #fdfdfd;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #140e02;
+    color: #8ee943;
 }
+
+
+.tools{
+    height: 3.5vw;
+    width: 3.5vw;
+}
+
+
 
 footer {
     background-color: #1f1f1f;
     padding: 1rem;
 }
+
+

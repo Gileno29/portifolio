@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio de Gileno C. Duarte</title>
     <!-- Bootstrap CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" >
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-    <header class="bg-dark text-white py-3">
+    <header class="bg-dark-custom text-white py-3">
         <nav class="navbar navbar-expand-lg navbar-dark container">
             <a class="navbar-brand" href="#">Gileno C. Duarte</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,186 +19,224 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#projetos">Projetos</a>
+                        <a class="nav-link  " href="#projetos">Projetos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#formacao">Formação</a>
+                        <a class="nav-link " href="#formacao">Formação</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#sobre">Sobre</a>
+                        <a class="nav-link " href="#sobre">Sobre</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
-    <main class="container mt-5">
-        <section id="intro" class="text-center mb-5">
-            <h1>Gileno C. Duarte</h1>
-            <h2 id="role">Engenheiro de Software</h2>
-            
-
-        </section>
-        <section id="sobre" class="text-center mb-5">
-            <h1>Sobre</h1>
-                <p>I'm Gileno, i have a degree in systems analysis and development from IFRN and I am currently pursuing a postgraduate degree 
-                in software engineering 
-                from Faculdade União Das Américas. 
-                I have a strong background in service
-                management in Linux/Unix environments and software development.
-                Experience in process automation, database management and code versioning,
-                RESTful API development, Docker and application containerization, web servers,
-                and cloud computing. I am motivated by delivering results and solving problems with technology.</p>
-            
-
-        </section>
-        <section id="atuacao" class="mb-5">
-            <h2 class="mb-5">Areas de Atuação</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img src="img/55aa1d048a45a51e7c75-desenvolvimentodesoftwares.webp" class="card-img-top" alt="Descrição da Imagem 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Dsenvolvimento de Software</h5>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" checked>
-                                <label class="form-check-label" for="defaultCheck1">
-                                    Densevolvimento de funcionalidades
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" checked>
-                                <label class="form-check-label" for="defaultCheck2">
-                                    Analise de Dados  
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck3" checked>
-                                <label class="form-check-label" for="defaultCheck3">
-                                    Suporte e sustentação  
-                                </label>
-                            </div>
-                        </div>
+    <main class="container-fluid ">
+        <div class="row">
+            <div class="col-md-2 mr-3  border border-dark border-left-0 border-top-0 border-bottom-0 bg-dark-custom">
+                <aside class="text-center mb-5 ">
+                    <img src="img/38367700.jpeg" class="img-fluid rounded-circle avatar" alt="Avatar do Gileno C. Duarte">
+                    <h3 class="text-white">Gileno C. Duarte</h3>
+                    <p class="text-white"> Email: gilenoduarte.jobs@gmail.com</p>
+                   
+                    <div>
+                        <img class="tools"  alt="GitLab"   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original-wordmark.svg" />        
+                        <img class="tools"  alt="PostgreSQL"   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" />
+                        <img class="tools"  alt="MariaDB"   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mariadb/mariadb-original-wordmark.svg" />
+                        <img class="tools"  alt="MariaDB"   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" />
+                        <img class="tools"  alt="C++"    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />        
+                        <img class="tools"  alt="Python"    width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+                        <img class="tools"  alt="Docker"   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg" /> 
+                        <img class="tools"  alt="Linux"   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"/>       
+                        <img class="tools"  alt="Shell"   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" />        
+                        <img class="tools"  alt="Git"   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
+                        <img class="tools"  alt="GO" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg" />
+                        <img class="tools"  alt="AWS"  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />
+                        <img class="tools"  alt="Django"  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain-wordmark.svg"/>
+                        <img class="tools"  alt="Django Rest"  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/djangorest/djangorest-original-wordmark.svg" />
+                        <img class="tools"  alt="Flask"  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original-wordmark.svg" />
+                        <img class="tools"  alt="Flask"  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />
+                        <img class="tools"  alt="Grafana"  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grafana/grafana-original.svg" />
+                        <img class="tools"  alt="Bootstrap"  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg" />        
+                        <img class="tools"  alt="Nginx"   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg" />
+                        <img class="tools"  alt="HTML"  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
+                        <img class="tools"  alt="CSS"  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+                                
+                        
+                                
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img src="img/servidor-linux-seguranca-2-1024x768.jpeg" class="card-img-top" alt="Descrição da Imagem 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Gerenciamento de ambientes Linux</h5>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck3" checked>
-                                <label class="form-check-label" for="defaultCheck3">
-                                    Dados 3
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck4" checked>
-                                <label class="form-check-label" for="defaultCheck4">
-                                    Dados 4
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img src="img/devops-process.png" class="card-img-top" alt="Descrição da Imagem 3">
-                        <div class="card-body">
-                            <h5 class="card-title">DevOps</h5>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck5" checked>
-                                <label class="form-check-label" for="defaultCheck5">
-                                    Dados 5
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck6" checked>
-                                <label class="form-check-label" for="defaultCheck6">
-                                    Dados 6
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </aside>
             </div>
-            <!-- Conteúdo dos Projetos -->
-        </section>
+            <div class="col-md-8 ml-3">
+                <section id="intro" class="text-center mb-5">
+                    <h1>Gileno C. Duarte</h1>
+                    <h2 id="role">Engenheiro de Software</h2>
+                    
 
-        <section id="servicos" class="mb-5">
-            <h2 class="">Serviços</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img src="servico1.jpg" class="card-img-top" alt="Descrição do Serviço 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Aplicações Web</h5>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck7" checked>
-                                <label class="form-check-label" for="defaultCheck7">
-                                    Detalhe 1
-                                </label>
+                </section>
+                <section id="sobre" class="text-center mb-5">
+                    <h1>Sobre</h1>
+                        <p>I'm Gileno, i have a degree in systems analysis and development from IFRN and I am currently pursuing a postgraduate degree 
+                        in software engineering 
+                        from Faculdade União Das Américas. 
+                        I have a strong background in service
+                        management in Linux/Unix environments and software development.
+                        Experience in process automation, database management and code versioning,
+                        RESTful API development, Docker and application containerization, web servers,
+                        and cloud computing. I am motivated by delivering results and solving problems with technology.</p>
+                    
+
+                </section>
+                <section id="atuacao" class="mb-5">
+                    <h2 class="mb-5 text-center">Areas de Atuação</h2>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="img/55aa1d048a45a51e7c75-desenvolvimentodesoftwares.webp" class="card-img-top" alt="Descrição da Imagem 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Dsenvolvimento de Software</h5>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" checked>
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            Densevolvimento de funcionalidades
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" checked>
+                                        <label class="form-check-label" for="defaultCheck2">
+                                            Analise de Dados  
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck3" checked>
+                                        <label class="form-check-label" for="defaultCheck3">
+                                            Suporte e sustentação  
+                                        </label>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck8" checked>
-                                <label class="form-check-label" for="defaultCheck8">
-                                    Detalhe 2
-                                </label>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="img/servidor-linux-seguranca-2-1024x768.jpeg" class="card-img-top" alt="Descrição da Imagem 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Gerenciamento de ambientes Linux</h5>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck3" checked>
+                                        <label class="form-check-label" for="defaultCheck3">
+                                            Dados 3
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck4" checked>
+                                        <label class="form-check-label" for="defaultCheck4">
+                                            Dados 4
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="img/devops-process.png" class="card-img-top" alt="Descrição da Imagem 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">DevOps</h5>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck5" checked>
+                                        <label class="form-check-label" for="defaultCheck5">
+                                            Dados 5
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck6" checked>
+                                        <label class="form-check-label" for="defaultCheck6">
+                                            Dados 6
+                                        </label>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img src="img/melhor-cloud-comparativo.webp" class="card-img-top" alt="Descrição do Serviço 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Infraestrutura e Hospedagem</h5>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck9" checked>
-                                <label class="form-check-label" for="defaultCheck9">
-                                    Detalhe 3
-                                </label>
+                    <!-- Conteúdo dos Projetos -->
+                </section>
+
+                <section id="servicos" class="mb-5">
+                    <h2 class="text-center mb-5">Serviços</h2>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="servico1.jpg" class="card-img-top" alt="Descrição do Serviço 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Aplicações Web</h5>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck7" checked>
+                                        <label class="form-check-label" for="defaultCheck7">
+                                            Detalhe 1
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck8" checked>
+                                        <label class="form-check-label" for="defaultCheck8">
+                                            Detalhe 2
+                                        </label>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck10" checked>
-                                <label class="form-check-label" for="defaultCheck10">
-                                    Detalhe 4
-                                </label>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="img/melhor-cloud-comparativo.webp" class="card-img-top" alt="Descrição do Serviço 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Infraestrutura e Hospedagem</h5>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck9" checked>
+                                        <label class="form-check-label" for="defaultCheck9">
+                                            Detalhe 3
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck10" checked>
+                                        <label class="form-check-label" for="defaultCheck10">
+                                            Detalhe 4
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="img/APIs.png" class="card-img-top" alt="Descrição do Serviço 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">APIs</h5>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck11" checked>
+                                        <label class="form-check-label" for="defaultCheck11">
+                                            Detalhe 5
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck12" checked>
+                                        <label class="form-check-label" for="defaultCheck12">
+                                            Detalhe 6
+                                        </label>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img src="img/APIs.png" class="card-img-top" alt="Descrição do Serviço 3">
-                        <div class="card-body">
-                            <h5 class="card-title">APIs</h5>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck11" checked>
-                                <label class="form-check-label" for="defaultCheck11">
-                                    Detalhe 5
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck12" checked>
-                                <label class="form-check-label" for="defaultCheck12">
-                                    Detalhe 6
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
+                </section>
             </div>
-           
-        </section>
+        </div>
     
     </main>
-    <footer class="bg-dark text-white text-center py-3">
+    <footer class="bg-dark-custom text-white text-center py-3">
         <p>&copy; 2024 Gileno C. Duarte. Todos os direitos reservados.</p>
     </footer>
     <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
     <!-- Custom JS -->
     <script src="scripts/scripts.js"></script>
 </body>
