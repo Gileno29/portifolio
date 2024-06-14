@@ -21,6 +21,10 @@ h1 {
     font-size: 3rem;
     color: #140e02;
 }
+p{
+    font-size: large;
+    text-align: center;
+}
 
 /* Background color customizavel*/
 .bg-dark-custom{
@@ -68,6 +72,10 @@ h1 {
     font-family: pixel;
 }
 
+.formacao-items{
+    height: 3.3vw;
+    width: 3.3vw;
+}
 h1, h2, h3, h4, h5, h6 {
     font-family: pixel;
     
