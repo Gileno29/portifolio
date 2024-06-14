@@ -22,8 +22,10 @@ h1 {
     color: #140e02;
 }
 
+/* Background color customizavel*/
 .bg-dark-custom{
-    background-color: #140e02  !important;
+    /*background-color: #140e02  !important;*/
+    background-color:#8B4513
 }
 #role {
     font-size: 1.5rem;
@@ -49,9 +51,29 @@ h1 {
 }
 
 
+.tools-list{
+    background-color: #ffffff;
+}
+
+@font-face {
+    font-family: pixel;
+    src: url(../fonts/DragonHunter-9Ynxj.otf);
+}
+
 .tools{
-    height: 3.5vw;
-    width: 3.5vw;
+    height: 3.3vw;
+    width: 3.3vw;
+    padding: 0.1vw;
+    margin-right: 0.1vw;
+    font-family: pixel;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: pixel;
+    
+}
+.gif-item{
+    height: 4.5vw;
 }
 
 
