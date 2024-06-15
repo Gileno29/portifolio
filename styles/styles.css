@@ -28,8 +28,8 @@ p{
 
 /* Background color customizavel*/
 .bg-dark-custom{
-    /*background-color: #140e02  !important;*/
-    background-color:#8B4513
+    background-color: #140e02  !important;
+    /*background-color:#8B4513*/
 }
 #role {
     font-size: 1.5rem;
