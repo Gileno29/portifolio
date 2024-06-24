@@ -26,6 +26,11 @@ p{
     text-align: center;
 }
 
+.sobre{
+    text-align: justify;
+    
+}
+
 /* Background color customizavel*/
 .bg-dark-custom{
     background-color: #140e02  !important;
