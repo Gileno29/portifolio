@@ -59,10 +59,10 @@ p{
     background-color: #ffffff;
 }
 
-@font-face {
+/*@font-face {
     font-family: pixel;
     src: url(../fonts/DragonHunter-9Ynxj.otf);
-}
+}*/
 
 .tools{
     height: 3.3vw;
@@ -85,13 +85,28 @@ h1, h2, h3, h4, h5, h6 {
     width: 5vw;
 }
 
-.cusos-logo{
-    height: 3vw;
+.cursos-logo{
+    height: 1.5vw;
+    width: 1.5vw;
 }
+
+
+
+.p-cursos{
+    margin-bottom: 0%;
+
+}
+
+.curso-titulo{
+    text-align: center;
+    align-items: center;
+}
+
 
 footer {
     background-color: #1f1f1f;
     padding: 1rem;
 }
+
 
 
