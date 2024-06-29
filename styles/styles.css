@@ -111,6 +111,12 @@ h1, h2, h3, h4, h5, h6 {
     display: none; /* Esconder os detalhes inicialmente */
   }
 
+
+.check-img{
+    height: 1.0vw;
+    width: 1.0vw;
+}
+
 footer {
     background-color: #1f1f1f;
     padding: 1rem;
