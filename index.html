@@ -300,10 +300,10 @@
                                 <ul class="list-group">
                                   <!-- Dados do projeto Backend -->
                                   <li class="list-group-item">
-                                    <a href="#" class="project-link" data-toggle="modal" data-target="#backendProject">Projeto Backend 1</a>
+                                    <a href="#" class="project-link" data-toggle="modal" data-target="#backendProject01">API golang</a>
                                   </li>
                                   <li class="list-group-item">
-                                    <a href="#" class="project-link" data-toggle="modal" data-target="#backendProject">Projeto Backend 2</a>
+                                    <a href="#" class="project-link" data-toggle="modal" data-target="#backendProject02">Book API</a>
                                   </li>
                                 </ul>
                               </div>
@@ -342,9 +342,12 @@
                               </button>
                             </div>
                             <div class="modal-body">
-                              <p>Informações detalhadas sobre o projeto ETL...</p>
+                              <img src="https://raw.githubusercontent.com/Gileno29/file_loader/main/doc/img/interface_sistema.png" alt="Imagem do Projeto" class="img-fluid">
+                              <p class="text text-center">Esse software foi desenvolvido visando o carregamento de um arquivo txt em formato especifico para uma base de dados PostgreSQL. Foi utilizado o Flamework Flask para
+                                criação das rotas da aplicação e o SQLAlchemy para manipulação do database,
+                                o deploy está sendo feito com docker-compose subindo 3 containers, aplicação, banco de dados e um último do NGINX para fazer um proxy reverso para acesso do sistema.</p>
                               <p>Link para o repositório: <a href="https://github.com/Gileno29/file_loader">Link do Repositório</a></p>
-                              <img src="https://via.placeholder.com/150" alt="Imagem do Projeto" class="img-fluid">
+                              
                             </div>
                           </div>
                         </div>
@@ -368,7 +371,25 @@
                         </div>
                       </div>
                     
-                      <div class="modal fade" id="backendProject" tabindex="-1" role="dialog" aria-labelledby="backendProjectLabel" aria-hidden="true">
+                      <div class="modal fade" id="backendProject01" tabindex="-1" role="dialog" aria-labelledby="backendProjectLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header bg-success text-white">
+                              <h5 class="modal-title" id="backendProjectLabel">Detalhes do Projeto Backend</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <p>API desenvolvida em golang com GIN Framework</p>
+                              <p>Link para o repositório: <a href="https://github.com/Gileno29/book-api">Link do Repositório</a></p>
+                              <img src="https://via.placeholder.com/150" alt="Imagem do Projeto" class="img-fluid">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    
+                      <div class="modal fade" id="backendProject02" tabindex="-1" role="dialog" aria-labelledby="backendProjectLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                           <div class="modal-content">
                             <div class="modal-header bg-success text-white">
@@ -379,13 +400,14 @@
                             </div>
                             <div class="modal-body">
                               <p>Informações detalhadas sobre o projeto Backend...</p>
-                              <p>Link para o repositório: <a href="#">Link do Repositório</a></p>
+                              <p>Link para o repositório: <a href="https://github.com/Gileno29/book-api">Link do Repositório</a></p>
                               <img src="https://via.placeholder.com/150" alt="Imagem do Projeto" class="img-fluid">
                             </div>
                           </div>
                         </div>
                       </div>
-                    
+
+                     
                       <div class="modal fade" id="devopsProject" tabindex="-1" role="dialog" aria-labelledby="devopsProjectLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                           <div class="modal-content">
