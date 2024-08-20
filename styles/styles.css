@@ -123,4 +123,37 @@ footer {
 }
 
 
+.experiencia .card{
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0, .5);
+    background-color: #323232 !important;
+    color: black !important;
+   
+}
 
+.experiencia .card .card-body .card-title{
+    
+    color: #3897F5;
+
+}
+
+
+
+
+
+.experiencia:hover{
+    scale: 1.05;
+    transition: .3s linear;
+}
+
+.projetos .card{
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0, .5);
+    background-color: #323232 !important;
+    color: black !important;
+   
+}
+
+.projetos .card .card-body .card-title{
+    
+    color: #3897F5;
+
+}
