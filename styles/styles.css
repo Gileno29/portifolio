@@ -181,3 +181,17 @@ footer {
 
 }
 
+
+
+/*.fixed-aside {
+   /* position: fixed;
+   /* top: 0; /* Position at the top of the viewport */
+   /* left: 0; /* Position at the left of the viewport */
+    /*width: 100%; /* Set width to 100% for full width */
+    /*height: 100vh; /* Set height to 100% of viewport height */
+    /*z-index: 0; /* Ensure the sidebar stays above other elements */
+    /*background-color: rgba(0, 0, 0, 0.7); /* Optional background color with transparency */
+    /*display: flex; /* Center content vertically */
+    /*justify-content: center; /* Center content horizontally */
+    /*align-items: center; /* Center content vertically and horizontally */
+  /*}*/
