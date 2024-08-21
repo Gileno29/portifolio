@@ -85,6 +85,17 @@ h1, h2, h3, h4, h5, h6 {
     font-family: pixel;
     
 }
+
+ul{
+    list-style: none  !important;
+}
+
+hr {
+    border: 1px solid #ccc; /* Define a espessura, estilo e cor da borda */
+    margin: 30px 0; /* Adiciona margem superior e inferior */
+  }
+
+
 .gif-item{
     height: 4.5vw;
     width: 5vw;
@@ -162,3 +173,4 @@ footer {
     background-color: #3897F5 !important;
 
 }
+
