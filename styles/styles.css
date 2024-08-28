@@ -181,7 +181,13 @@ footer {
 
 }
 
-
+.card-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Ajuste a altura conforme necessário */
+    background-color: #3897F5;
+}
 
 /*.fixed-aside {
    /* position: fixed;
