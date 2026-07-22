@@ -8,6 +8,8 @@ body {
   font-family: theme('fontFamily.mono');
 }
 
+
+
 .blinking-cursor {
   animation: blink 1s step-end infinite;
 }

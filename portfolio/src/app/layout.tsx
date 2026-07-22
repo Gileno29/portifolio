@@ -26,7 +26,7 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
           rel="stylesheet"
         />
-
+        <link rel="icon" href="/Terminal_22714.webp" type="image/webp" />
       </head>
       <body>
         <Header />
