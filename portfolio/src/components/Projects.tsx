@@ -26,10 +26,29 @@ const Projects = () => {
       link: 'https://github.com/Gileno29/agenda'
     },
     {
-      title: 'Processador de Dados em Lote',
-      description: 'Um sistema para processar grandes volumes de dados em segundo plano, utilizando filas e workers.',
-      tech: ['Python', 'Celery', 'RabbitMQ', 'PostgreSQL'],
-      link: 'https://github.com/seu-usuario/projeto-2'
+      title: 'AI Document Q&A API',
+      description: 'A production-ready REST API that lets you upload documents and ask questions about them in natural language. Built with Go (API gateway) and Python (embedding + retrieval), using a full RAG pipeline under the hood.',
+      tech: ['Python', 'Golang', 'Docker', 'Ollama'],
+      link: 'https://github.com/Gileno29/AI-document'
+    },
+    {
+      title: 'Order Manager',
+      description: 'Esse projeto tem como objetivo desenvolver um sistema simples que permite gerenciar pedidos de forma genérica, além de disponibilizar uma API para identificar a vogal em uma string seguindo parâmetros específicos.',
+      tech: ['python', 'Django', 'Github Actions', 'PostgreSQL','Javascript','Bootstrap'],
+      link: 'https://github.com/Gileno29/orderManager'
+    },
+
+    {
+      title: 'File Loader',
+      description: 'Projeto Desenvolvido para carrgamento de uma base de dados em um banco Relacional através de um Endpoint',
+      tech: ['Go', 'PostgreSQL', 'Docker'],
+      link: 'https://github.com/Gileno29/file_loader_golang'
+    },
+    {
+      title: 'API Registro de Clientes',
+      description: 'API para cadastro de dados de clintes que inclui validação de autenticidade de CPFs/CNPJs',
+      tech: ['Go', 'Docker', 'Open API', 'Postgres', 'GIN Flamework'],
+      link: 'https://github.com/Gileno29/clientes-API'
     },
     {
       title: 'Microsserviço de Autenticação',
@@ -37,11 +56,12 @@ const Projects = () => {
       tech: ['Go', 'gRPC', 'OAuth 2.0', 'Kubernetes'],
       link: 'https://github.com/seu-usuario/projeto-3'
     }
+
   ];
 
   return (
     <section id="projects" className="container mx-auto my-12 p-8 border-2 border-accent rounded-lg">
-      <h2 className="text-3xl font-bold text-center mb-8 text-primary">Projetos</h2>
+      <h2 className="text-3xl font-bold text-center mb-8 text-primary">Alguns Projetos</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projectData.map(p => <ProjectCard key={p.title} {...p} />)}
       </div>
